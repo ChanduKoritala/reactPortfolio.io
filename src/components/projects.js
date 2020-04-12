@@ -5,7 +5,7 @@ class Projects extends Component {
     render() {
         return (
             <div className="cards">
-                <h1>Projects</h1>
+                <h1 style= {{color: 'white'}}>Projects</h1>
                 <Grid className="projects-grid">
                     <Cell col={4}>
                         {/* Project 1 */}
