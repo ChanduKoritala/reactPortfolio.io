@@ -12,6 +12,7 @@ class App extends Component {
           <Layout>
             <Header className="header-color" title="Sri Krishna Chandu Koritala" scroll>
               <Navigation>
+              <Link to="/">Home</Link>
                 <Link to="/aboutme">About Me</Link>
                 <Link to="/resume">Resume</Link>
                 <Link to="/projects">Projects</Link>
