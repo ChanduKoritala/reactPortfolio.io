@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Grid, Cell } from 'react-mdl';
 import Profile from '../images/profile.png'
+import FooterComp from './footer';
 
 class Landing extends Component {
     render() {
@@ -31,8 +32,11 @@ class Landing extends Component {
                         </div>
                         </div>
                     </Cell>
+                    
                 </Grid>
+                <FooterComp/>
             </div>
+            
         )
     }
 }

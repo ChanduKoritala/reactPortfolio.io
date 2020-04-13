@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Grid, Cell } from 'react-mdl';
 import CV from '../resume/Sri_Resume.pdf'
-
+import FooterComp from './footer';
 class Resume extends Component {
     render() {
         return (
@@ -21,7 +21,7 @@ class Resume extends Component {
 
                     </Cell>
                 </Grid>
-
+                <FooterComp/>
             </div>
         )
     }

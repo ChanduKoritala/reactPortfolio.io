@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Card, CardTitle, CardText, CardActions, Button, Grid, Cell } from 'react-mdl';
-
+import FooterComp from './footer';
 class Projects extends Component {
     render() {
         return (
@@ -86,6 +86,7 @@ class Projects extends Component {
                         </Card>
                     </Cell>
                 </Grid>
+                <FooterComp/>
             </div>
         )
     }
