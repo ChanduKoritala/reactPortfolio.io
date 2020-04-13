@@ -11,7 +11,7 @@ class Landing extends Component {
 
                         <img
                             src={Profile} alt="profileImage"
-                            className="profile-image" />
+                            className="profile-image"/>
                         <div className = "banner-text">
                             <h1>Front-end Web Developer</h1>
 
@@ -22,7 +22,7 @@ class Landing extends Component {
                         <div className = "social-links">
                             {/* LinkedIn */}
                             <a href= "https://www.linkedin.com/in/sri-krishna-chandu-koritala-54867425/" target= "_blank" rel="noreferrer noopener">
-                                <i className="fa fa-linkedin-square" aria-hidden= "true" />
+                                <i className="fa fa-linkedin-square" aria-hidden= "true"/>
                             </a>
                             {/* GitHub */}
                             <a href= "https://github.com/ChanduKoritala" target= "_blank" rel="noreferrer noopener">

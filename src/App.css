@@ -3,6 +3,7 @@ background: #000000;  /* fallback for old browsers */
 background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
 background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
+
 .landing-grid {
 background: #000000;  /* fallback for old browsers */
 background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
@@ -13,6 +14,7 @@ top: 50px;
 left: 0;
 width: 100%;
 height: 100%;
+display: contents;
 }
 
 .profile-image {
@@ -198,4 +200,40 @@ background: linear-gradient(to right, #434343, #000000);
   text-align: center;
   font-weight: bold;
 }
+.resume-grid {
+  color: black;
+  justify-content: center;
+  opacity: .8;
+  width:80%;
+  height:auto;
+  background: white;
+  margin-bottom: 20px;
+  border-radius: 5rem;
+}
+.resume-body {
+  background: #000000;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #434343, #000000);
 
+  margin:auto;
+  position:fixed;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  padding-top:2em;
+}
+.resume-text h1 {
+  border-bottom: 5px dotted black;
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+}
+.resume-text p {
+  font-size: 66px;
+  padding-right: 5rem;
+  text-align: center;
+}
+
+.resume-text i {
+  color: black;
+}
