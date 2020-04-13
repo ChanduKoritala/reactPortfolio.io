@@ -21,7 +21,9 @@ class Resume extends Component {
 
                     </Cell>
                 </Grid>
-                <FooterComp/>
+                <div>
+                    <FooterComp />
+                </div>
             </div>
         )
     }
