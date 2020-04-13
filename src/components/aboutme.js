@@ -21,6 +21,7 @@ class About extends Component {
 
                     </Cell>
                 </Grid>
+                <hr />
                 <div>
                 <FooterComp/>
                 </div>
